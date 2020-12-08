@@ -4,16 +4,26 @@
   "description": "Primer proyecto con Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MarespTech/agencia_viajes_node.git"
   },
+  "type": "module",
   "author": "Martin Espericueta",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MarespTech/agencia_viajes_node/issues"
   },
-  "homepage": "https://github.com/MarespTech/agencia_viajes_node#readme"
+  "homepage": "https://github.com/MarespTech/agencia_viajes_node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "pug": "^3.0.0",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
